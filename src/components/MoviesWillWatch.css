@@ -1,0 +1,27 @@
+.movies-watch{
+    margin-left: 20px;
+}
+.movies-watch__list{
+    border:1px solid #999;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.movies-watch__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+.movies-watch__item:not(:last-child){
+    border-bottom: 1px solid #999;
+}
+.movies-watch__title{
+    font-weight: 400;
+    font-size: 16px;
+}
+.movies-watch__count{
+    margin-bottom:20px;
+}
+.movies-watch__rating{
+    margin-left:10px;
+}
